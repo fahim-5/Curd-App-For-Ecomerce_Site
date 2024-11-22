@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Wireless Headphones",
+      "description": "Experience unparalleled sound quality with these wireless headphones. With noise-canceling technology and a sleek, ergonomic design, enjoy your favorite music or podcasts on the go without interruptions.",
+      "category": "electronics"
+    },
+    {
+      "id": "6",
+      "title": "Bluetooth Speaker",
+      "description": "This compact yet powerful Bluetooth speaker delivers rich, immersive sound. With a long battery life and water-resistant build, it's perfect for both indoor and outdoor adventures.",
+      "category": "electronics"
+    },
+    {
+      "id": "8",
+      "title": "Gaming Mouse",
+      "description": "Enhance your gaming experience with this high-precision gaming mouse. Equipped with customizable buttons and RGB lighting, it offers smooth and accurate control for intense gameplay.",
+      "category": "electronics"
+    },
+    {
+      "id": "10",
+      "title": "Yoga Mat",
+      "description": "This eco-friendly yoga mat provides excellent grip and cushioning for your yoga sessions. Its lightweight and durable design make it ideal for both beginners and experienced practitioners.",
+      "category": "fitness"
+    },
+    {
+      "id": "45",
+      "title": "Gaming Man",
+      "description": "Experience unparalleled sound quality with these wireless headphones. With noise-canceling technology and a sleek, ergonomic design, enjoy your favorite music or podcasts on the go without interruptions.",
+      "category": "roket"
+    },
+    {
+      "id": "12",
+      "title": "Running Shoes",
+      "description": "These lightweight running shoes offer exceptional comfort and support. With a breathable mesh upper and durable outsole, they are perfect for long runs and daily activities.",
+      "category": "fitness"
+    },
+    {
+      "id": "14",
+      "title": "Smartwatch",
+      "description": "Stay connected and monitor your fitness with this stylish smartwatch. Features include heart rate monitoring, step tracking, and notifications for calls and messages.",
+      "category": "electronics"
+    },
+    {
+      "id": "16",
+      "title": "Electric Kettle",
+      "description": "This electric kettle boils water quickly and efficiently. With a modern design and safety features like auto shut-off, it's a must-have for your kitchen.",
+      "category": "home appliances"
+    },
+    {
+      "id": "18",
+      "title": "Laptop Stand",
+      "description": "Improve your posture with this adjustable laptop stand. Its sturdy build and sleek design make it ideal for both home and office use.",
+      "category": "electronics"
+    },
+    {
+      "id": "20",
+      "title": "Backpack",
+      "description": "This durable and spacious backpack is perfect for travel, work, or school. With multiple compartments and padded straps, it offers both comfort and functionality.",
+      "category": "accessories"
+    },
+    {
+      "id": "22",
+      "title": "Desk Organizer",
+      "description": "Keep your workspace tidy with this desk organizer. With multiple compartments for pens, notes, and gadgets, it helps you stay organized and focused.",
+      "category": "office supplies"
+    },
+    {
+      "id": "24",
+      "title": "LED Desk Lamp",
+      "description": "This sleek LED desk lamp provides bright, adjustable lighting for reading or working. Its energy-efficient design and touch controls make it a great addition to any desk.",
+      "category": "electronics"
+    },
+    {
+      "id": "26",
+      "title": "Portable Charger",
+      "description": "Charge your devices on the go with this compact and powerful portable charger. Its high-capacity battery ensures you stay connected wherever you are.",
+      "category": "electronics"
+    },
+    {
+      "id": "28",
+      "title": "Cookware Set",
+      "description": "This non-stick cookware set is perfect for all your cooking needs. With durable construction and easy-to-clean surfaces, it’s a great addition to any kitchen.",
+      "category": "home appliances"
+    },
+    {
+      "id": "30",
+      "title": "Wireless Keyboard",
+      "description": "This compact and ergonomic wireless keyboard is designed for comfortable typing. Compatible with multiple devices, it's ideal for work or gaming.",
+      "category": "electronics"
+    }
+  ]
+}

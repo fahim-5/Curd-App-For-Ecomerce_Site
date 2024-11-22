@@ -1,0 +1,193 @@
+/* Root Variables for Color Palette */
+:root {
+    --color-primary: #1a535c; /* Deep Teal */
+    --color-secondary: #4ecdc4; /* Soft Green */
+    --color-accent: #3d5a80; /* Olive */
+    --color-light: #f7fff7; /* Light Mint */
+    --color-dark: #264653; /* Deep Blue */
+    --color-muted: #8d99ae; /* Neutral Gray */
+    --color-hover: #2a9d8f; /* Jungle Green */
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: var(--color-light);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  /* Form Section */
+  .product-form {
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-muted));
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    color: var(--color-light);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-form h2 {
+    color: var(--color-light);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--color-light);
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid var(--color-muted);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 8px var(--color-hover);
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    font-size: 1.1rem;
+    border: 1px solid var(--color-dark);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--color-hover);
+    transform: scale(1.05);
+  }
+  
+  /* Product List */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  article {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  article h1 {
+    font-size: 1.2rem;
+    color: var(--color-dark); /* Darker color for title */
+    font-weight: bold;
+  }
+  
+  article p {
+    font-size: 1rem;
+    color: var(--color-muted); /* Neutral gray for description */
+    margin-bottom: 8px;
+  }
+  
+  article .category {
+    font-size: 0.9rem;
+    color: var(--color-hover); /* Jungle Green for category */
+    font-style: italic;
+  }
+  
+  /* Buttons for Cards */
+  .card-btn-group {
+    display: flex;
+    justify-content: space-between; /* Align buttons beside each other */
+    gap: 8px; /* Small gap between buttons */
+    margin-top: 15px;
+  }
+  
+  button.card-btn {
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    border: 1px solid var(--color-dark);
+    padding: 6px 10px; /* Reduced padding for smaller size */
+    font-size: 0.8rem; /* Slightly smaller font size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button.card-btn:hover {
+    background-color: var(--color-hover);
+    transform: scale(1.1);
+  }
+  
+  button.card-btn.delete {
+    background-color: var(--color-accent);
+  }
+  
+  button.card-btn.delete:hover {
+    background-color: var(--color-dark);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    input,
+    button {
+      font-size: 1rem;
+    }
+  
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+  
+    button.card-btn {
+      padding: 5px 8px; /* Smaller padding on mobile */
+      font-size: 0.7rem; /* Slightly reduced font size for smaller screens */
+    }
+  
+    article h1 {
+      font-size: 1rem; /* Slightly smaller for titles on smaller screens */
+    }
+  
+    article p,
+    article .category {
+      font-size: 0.8rem; /* Adjust descriptions and categories */
+    }
+  }
+  
