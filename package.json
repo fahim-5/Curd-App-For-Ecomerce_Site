@@ -1,8 +1,9 @@
 {
-  "name": "ecomerce",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ecommerce",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
